@@ -1,0 +1,46 @@
+header {
+    background-color: #454545;
+    width: 100% auto;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 938px auto;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+body {
+    position: relative;
+}
+
+span {
+    width: 80px;
+    height: 80px;
+    background-image: url("../../../assets/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    display: flex;
+    gap: 20px;
+
+}
+
+div {
+    display: flex;
+    gap: 25px;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 60%;
+}
+
+.menu {
+    width: 5%;
+}
