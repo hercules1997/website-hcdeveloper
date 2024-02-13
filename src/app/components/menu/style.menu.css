@@ -1,22 +1,23 @@
 header {
-    background-color: #454545;
-    width: 100% auto;
+    background-color: #070308;
+ 
     position: sticky;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 938px auto;
+    width: 100vw;
     top: 0;
-    left: 0;
+    color: #fff;
+
     z-index: 10;
+
+  
 }
 
-body {
-    position: relative;
-}
+
 
 span {
-    width: 80px;
+    width: 70px;
     height: 80px;
     background-image: url("../../../assets/logo.png");
     background-size: cover;
@@ -28,14 +29,21 @@ a {
     gap: 20px;
 
 }
+@media (max-width: 1000px) {
+    a {
+        display: none;
+    }
+}
 
 div {
     display: flex;
-    gap: 25px;
+    gap: 20px;
     width: 35%;
     align-items: center;
     justify-content: center;
 }
+
+
 
 input {
     width: 60%;

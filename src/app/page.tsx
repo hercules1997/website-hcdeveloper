@@ -1,18 +1,15 @@
 import { Apresentation } from "@/pages/apresentation";
 import { Menu } from "./components/menu";
-import styles from "./page.module.css";
+import "./page.css";
 
 export default function Home() {
   return (
     <>
-
-
-      <Menu  />
-
-      <main className={styles.main}>
-        <h1>Bem vindo!</h1>
-
-
+      <Menu />
+      <main>
+        <p>Crie agora sua landing Page, 
+          <br /> e-commerce de
+          <br /> qualidade!</p>
         <Apresentation />
       </main>
     </>
