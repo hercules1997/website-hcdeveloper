@@ -1,4 +1,4 @@
-import "./page.apresentation.css";
+import "./style.apresentation.css";
 
 export const Apresentation = () => {
   return (
@@ -8,7 +8,7 @@ export const Apresentation = () => {
         <div className="filter">
           <span className="background"></span>
         </div>
-        <button>hekko</button>
+       
       </main>
     </>
   );

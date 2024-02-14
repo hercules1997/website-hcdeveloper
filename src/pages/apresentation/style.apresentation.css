@@ -1,5 +1,5 @@
 .filter {
-background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.87718837535014) 18%, rgba(0, 0, 0, 0.30015756302521013) 40%, rgba(0, 0, 0, 0.29735644257703087) 63%, rgba(0, 0, 0, 0.8183648459383753) 84%, rgba(0, 0, 0, 1) 100%);  width: 100%;
+background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.87718837535014) 18%, rgba(0, 0, 0, 0.733) 40%, rgba(0, 0, 0, 0.527) 63%, rgba(0, 0, 0, 0.8183648459383753) 84%, rgba(0, 0, 0, 1) 100%);  width: 100%;
   min-height: 100vh;
     z-index: -1;
     width: 100vw;

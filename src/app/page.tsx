@@ -1,4 +1,5 @@
 import { Apresentation } from "@/pages/apresentation";
+import { Projects } from "@/pages/Projects";
 import { Menu } from "./components/menu";
 import "./page.css";
 
@@ -7,10 +8,17 @@ export default function Home() {
     <>
       <Menu />
       <main>
-        <p>Crie agora sua landing Page, 
-          <br /> e-commerce de
-          <br /> qualidade!</p>
+        <span>
+          <p>
+            Crie agora sua landing Page,
+            <br /> e-commerce de
+            <br /> qualidade!
+          </p>
+          <button>hekko</button>
+        </span>
+
         <Apresentation />
+        <Projects />
       </main>
     </>
   );

@@ -1,16 +1,41 @@
 main {
   position: relative;
   display: flex;
+  width: 100%;
 }
 
 p {
   color: #fff;
-  font-size: 5rem ;
-  position: absolute;
-  left: 0;
-  z-index: 1;
+  font-size: 5rem;
+
+
+
   word-wrap: break-word;
   font-weight: 700;
   font-family: 'Times New Roman', Times, serif;
   padding-left: 2rem;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+
+  align-items: center;
+  text-align: center;
+
+}
+
+button {
+
+  background-color: #242C64;
+  max-width: 300px;
+  padding: 5px;
+  margin-left: 2rem;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+
 }
