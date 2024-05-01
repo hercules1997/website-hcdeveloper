@@ -1,0 +1,5 @@
+export * from './Header'
+export * from './Projects'
+export * from './Services'
+export * from './Contacts'
+export * from './Footer'
