@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Global from "./styles/global.styles";
-import { App } from './App'
+import { Page } from './Page'
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <Page />
     <Global />
   </React.StrictMode>
 );

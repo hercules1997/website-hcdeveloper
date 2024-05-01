@@ -1,7 +1,7 @@
 
 import { Header, Projects, Services, Contacts, Footer } from "./screen";
 
-export const App = () => {
+export const Page = () => {
   return (
     <>
       <Header />
