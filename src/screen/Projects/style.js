@@ -9,63 +9,70 @@ margin-top: 2rem;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  border: solid 1px white;
+  /* border: solid 1px white; */
 
   color: ${theme.colors.light};
 `;
 
 const H2Title = styled.h2`
-  border: solid 1px green;
+  /* border: solid 1px green; */
   width: 100%;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
+  margin-bottom: 5rem;
 `;
 
 const ContainerContentProjects = styled.aside`
-  border: solid 1px red;
+  /* border: solid 1px red; */
   position: relative;
   display: flex;
   width: 100%;
   flex-direction: column;
   color: ${theme.colors.light};
+  margin-bottom: 10rem;
   min-height: calc(100vh - 10rem);
 `;
 
 const ListProjects = styled.li`
-  padding: 1rem;
+
   display: flex;
-  width: 100%;
+
+margin-top: 15rem;
+  /* width: 100%; */
 
 `;
 
 const DivisorLineTime = styled.div`
+display: flex;
   flex-direction: column;
-  border: solid 1px beige;
+  /* border: solid 1px beige; */
+  justify-content: center;
+align-items: center;
   width: 50%;
   padding: 1rem;
 `;
 
 const LineTime = styled.line`
-  width: 10px;
+  width: 5px;
   margin-top: 2rem;
-  height: 80%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: gray;
   position: absolute;
-  left: 49.5%;
+  left: 50.3%;
 `
 
 const Circle = styled.circle`
-  width: 30px;
+  width: 20px;
   margin-top: 3rem;
-  height: 30px;
+  height: 20px;
   display: flex;
   border-radius: 50%;
   flex-direction: column;
-  background-color: blue;
+  background-color: gray;
   position: absolute;
-  left: 48.8%;
+  left: 49.7%;
 `;
 
 

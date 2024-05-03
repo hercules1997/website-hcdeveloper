@@ -1,3 +1,7 @@
+
+import imageLogo from "../../assets/img/logo.png";
+import avatar from "../../assets/img/avatar.jpg";
+
 import {
   Button,
   CardProjects,
@@ -21,7 +25,9 @@ export const Header = () => {
   return (
     <>
       <Container>
-        <Logo />
+        <Logo >
+           <img src={imageLogo}/>
+        </Logo>
         <Navigator>
           <Links>Projetos</Links>
           <Links>Serviços</Links>
@@ -31,8 +37,11 @@ export const Header = () => {
       </Container>
       <ContainerContent>
         <ContentLeft>
-          <ImagePerson />
+        <ImagePerson >
+            <img src={avatar}/>
+          </ImagePerson>
           <H1>DESENVOLVEDOR WEB</H1>
+          
         </ContentLeft>
         <ContentRight>
           <div>
@@ -44,7 +53,7 @@ export const Header = () => {
             </TextApresentation>
           </div>
           <div>
-            {" "}
+    
             <TextApresentation>
               Precisa de um especialista em desenvolvimento?
             </TextApresentation>

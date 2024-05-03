@@ -1,5 +1,4 @@
 import { createGlobalStyle } from "styled-components";
-import { theme } from "./theme";
 
 export default createGlobalStyle`
 
@@ -11,7 +10,8 @@ export default createGlobalStyle`
 
      body {
         -webkit-fon-smoothing: antialiased;
-        background-color: ${theme.colors.black};
+        background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(28,38,73,1) 18%, rgba(48,64,124,1) 40%, rgba(48,64,124,1) 63%, rgba(28,38,73,1) 84%, rgba(0,0,0,1) 100%);
      }
 
      body, input, button, select {
