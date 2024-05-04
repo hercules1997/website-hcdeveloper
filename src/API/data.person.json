@@ -1,0 +1,19 @@
+{
+    "person": {
+        "name": "Hércules Chaves Andrade",
+        "email": "hercules.chaves.andrade@gmail.com",
+        "github": "https://github.com/hercules1997",
+        "phone": "11958457590",
+        "whatsapp": "",
+        "linkedin": "",
+        "professional": {
+            "web": "Desenvolvedor Web",
+            "frontend": "Desenvolvedor Fron-End",
+            "backend": "Desenvolvedor Back-End"
+        },
+        "apresentation": {
+            "introduction": "Ola, seje muito bem-vindo(a)! Sou o",
+            "about": "apaixonado por tecnologia e inovação. Trabalho com criação de sites, e-commerce, landpages, sistemas, chatbot e realizo manutenções dos mesmos"
+        }
+    }
+}
