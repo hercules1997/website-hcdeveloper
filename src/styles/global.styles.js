@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
 
@@ -6,12 +6,16 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+            
+         font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-style: normal
      }
 
      body {
         -webkit-fon-smoothing: antialiased;
         background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(28,38,73,1) 18%, rgba(48,64,124,1) 40%, rgba(48,64,124,1) 63%, rgba(28,38,73,1) 84%, rgba(0,0,0,1) 100%);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(28,38,73,1) 18%, rgba(48,64,124,1) 40%, rgba(48,64,124,1) 63%, rgba(28,38,73,1) 84%, rgba(0,0,0,1) 100%);
      }
 
      body, input, button, select {
@@ -32,4 +36,4 @@ background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(28,38,73,1) 18%, rgba(4
         cursor: pointer;
      }
        
-`;
+`
