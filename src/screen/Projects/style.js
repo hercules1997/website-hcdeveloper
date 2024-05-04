@@ -1,8 +1,9 @@
-import styled from "styled-components";
-import { theme } from "../../styles/theme";
+import styled from 'styled-components'
+
+import { theme } from '../../styles/theme'
 
 const Container = styled.section`
-margin-top: 2rem;
+  margin-top: 2rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,7 +13,7 @@ margin-top: 2rem;
   /* border: solid 1px white; */
 
   color: ${theme.colors.light};
-`;
+`
 
 const H2Title = styled.h2`
   /* border: solid 1px green; */
@@ -20,7 +21,7 @@ const H2Title = styled.h2`
   font-size: 3rem;
   text-align: center;
   margin-bottom: 5rem;
-`;
+`
 
 const ContainerContentProjects = styled.aside`
   /* border: solid 1px red; */
@@ -31,26 +32,24 @@ const ContainerContentProjects = styled.aside`
   color: ${theme.colors.light};
   margin-bottom: 10rem;
   min-height: calc(100vh - 10rem);
-`;
+`
 
 const ListProjects = styled.li`
-
   display: flex;
 
-margin-top: 15rem;
+  margin-top: 15rem;
   /* width: 100%; */
-
-`;
+`
 
 const DivisorLineTime = styled.div`
-display: flex;
+  display: flex;
   flex-direction: column;
   /* border: solid 1px beige; */
   justify-content: center;
-align-items: center;
+  align-items: center;
   width: 50%;
   padding: 1rem;
-`;
+`
 
 const LineTime = styled.line`
   width: 5px;
@@ -73,10 +72,7 @@ const Circle = styled.circle`
   background-color: gray;
   position: absolute;
   left: 49.7%;
-`;
-
-
-
+`
 
 export {
   Container,
@@ -85,5 +81,5 @@ export {
   ListProjects,
   DivisorLineTime,
   LineTime,
-  Circle,
-};
+  Circle
+}

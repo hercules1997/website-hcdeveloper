@@ -1,4 +1,11 @@
-import { Container, ContainerContentServices, H2Title, ImageService, ListServices, TextService } from "./style"
+import {
+  Container,
+  ContainerContentServices,
+  H2Title,
+  ImageService,
+  ListServices,
+  TextService
+} from './style'
 
 export const Services = () => {
   return (
@@ -6,14 +13,18 @@ export const Services = () => {
       <H2Title>Serviços</H2Title>
       <ContainerContentServices>
         <ListServices>
-          <div>     <ImageService />
-          <TextService>Criação de Sites</TextService></div>
-     
+          <div>
+            {' '}
+            <ImageService />
+            <TextService>Criação de Sites</TextService>
+          </div>
         </ListServices>
         <ListServices>
-          <div>      <ImageService />
-          <TextService>Manutenção</TextService></div>
-    
+          <div>
+            {' '}
+            <ImageService />
+            <TextService>Manutenção</TextService>
+          </div>
         </ListServices>
         <ListServices>
           <div>
@@ -22,13 +33,14 @@ export const Services = () => {
           </div>
         </ListServices>
         <ListServices>
-          <div>    <ImageService />
-          <TextService>E-Commerces</TextService></div>
-      
+          <div>
+            {' '}
+            <ImageService />
+            <TextService>E-Commerces</TextService>
+          </div>
         </ListServices>
       </ContainerContentServices>
       <H2Title>Faça já um orçamento!</H2Title>
     </Container>
-  );
+  )
 }
-

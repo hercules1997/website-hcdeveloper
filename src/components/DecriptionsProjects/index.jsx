@@ -1,4 +1,4 @@
-import { CardContainer } from "./style";
+import { CardContainer } from './style'
 
 export const DecriptionsProjects = () => {
   return (
@@ -16,5 +16,5 @@ export const DecriptionsProjects = () => {
         do humor).
       </p>
     </CardContainer>
-  );
-};
+  )
+}

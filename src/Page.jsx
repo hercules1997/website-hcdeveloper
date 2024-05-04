@@ -1,5 +1,4 @@
-
-import { Header, Projects, Services, Contacts, Footer } from "./screen";
+import { Header, Projects, Services, Contacts, Footer } from './screen'
 
 export const Page = () => {
   return (
@@ -10,5 +9,5 @@ export const Page = () => {
       <Contacts />
       <Footer />
     </>
-  );
-};
+  )
+}

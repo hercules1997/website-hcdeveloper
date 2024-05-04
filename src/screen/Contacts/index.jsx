@@ -6,13 +6,12 @@ import {
   Input,
   Label,
   ListServices,
-  TexTarea,
-} from "./style";
+  TexTarea
+} from './style'
 
 export const Contacts = () => {
   return (
     <Container>
-     
       <FormContacts>
         <Label>Nome:</Label>
         <Input />
@@ -31,5 +30,5 @@ export const Contacts = () => {
         </ListServices>
       </FormContacts>
     </Container>
-  );
-};
+  )
+}

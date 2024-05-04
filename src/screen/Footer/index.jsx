@@ -1,4 +1,4 @@
-import { Container, Text } from "./style"
+import { Container, Text } from './style'
 
 export const Footer = () => {
   return (
@@ -6,6 +6,5 @@ export const Footer = () => {
       <Text>© Copyright 2024 - Todos os direitos reservados</Text>
       <Text>Desenvolvido by Hércules Chaves</Text>
     </Container>
-  );
+  )
 }
-

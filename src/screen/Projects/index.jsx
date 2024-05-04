@@ -1,3 +1,5 @@
+import { Cards } from '../../components/Cards'
+import { DecriptionsProjects } from '../../components/DecriptionsProjects'
 import {
   Circle,
   Container,
@@ -5,10 +7,8 @@ import {
   DivisorLineTime,
   H2Title,
   LineTime,
-  ListProjects,
-} from "./style";
-import { Cards } from "../../components/Cards";
-import { DecriptionsProjects } from "../../components/DecriptionsProjects";
+  ListProjects
+} from './style'
 export const Projects = () => {
   return (
     <Container>
@@ -51,9 +51,8 @@ export const Projects = () => {
             <Cards />
           </DivisorLineTime>
         </ListProjects>
-  
       </ContainerContentProjects>
       <H2Title>Ver mais</H2Title>
     </Container>
-  );
-};
+  )
+}

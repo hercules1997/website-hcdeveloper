@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 const CardContainer = styled.div`
   background: gray;
@@ -9,6 +9,6 @@ const CardContainer = styled.div`
   padding: 20px;
 
   width: 90%;
-`;
+`
 
-export { CardContainer}
+export { CardContainer }
