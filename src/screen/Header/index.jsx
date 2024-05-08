@@ -1,4 +1,4 @@
-import avatar from '../../assets/img/image.png'
+import avatar from '../../assets/img/av.png'
 import { Menu } from '../../components'
 import {
   Button,
