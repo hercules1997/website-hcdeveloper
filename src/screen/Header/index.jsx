@@ -39,7 +39,6 @@ export function Header() {
           <div>
             <TextApresentation>
               <span>
-                {' '}
                 Esta precisando de um especialista em desenvolvimento?
               </span>
             </TextApresentation>
