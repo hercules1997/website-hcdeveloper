@@ -1,8 +1,9 @@
 import avatar from '../../assets/img/av.png'
 import { Menu } from '../../components'
+import { Carousel } from '../../components/Carousel'
 import {
   Button,
-  CardProjects,
+  // CardProjects,
   CarouselProjectsDetach,
   ContainerContent,
   ContentCarousel,
@@ -48,9 +49,10 @@ export function Header() {
           <ContentCarousel>
             <TextApresentation>Últimos projetos em destaque</TextApresentation>
             <CarouselProjectsDetach>
+              <Carousel></Carousel>
+              {/* <CardProjects />
               <CardProjects />
-              <CardProjects />
-              <CardProjects />
+              <CardProjects /> */}
             </CarouselProjectsDetach>
           </ContentCarousel>
         </ContentRight>

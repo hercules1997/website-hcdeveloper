@@ -30,6 +30,7 @@ const ImagePerson = styled.span`
 
   > img {
     width: 90%;
+    opacity: 0.7;
   }
 `
 const H1 = styled.h1`
