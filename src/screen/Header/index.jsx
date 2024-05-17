@@ -30,18 +30,18 @@ export function Header() {
         </ContentLeft>
         <ContentRight>
           <div>
-            <H2Name>Hércules Chaves</H2Name>
             <TextApresentation>
-              Apaixonado por tecnologias e inovações, com sua cratividade e
-              soluções desenvolve sites, e-commerce, landpages, sistemas,
-              chatbot e realizo manutenções dos mesmos.
+              <span>Precisa de um especialista em desenvolvimento?</span>
             </TextApresentation>
           </div>
           <div>
+            <H2Name>Hércules Chaves</H2Name>
             <TextApresentation>
-              <span>
-                Esta precisando de um especialista em desenvolvimento?
-              </span>
+              <p>
+                Apaixonado por tecnologias e inovações, com sua cratividade e
+                soluções desenvolve sites, e-commerce, landpages, sistemas,
+                chatbot e realizo manutenções dos mesmos.
+              </p>
             </TextApresentation>
             <Button>Entre em contato!</Button>
           </div>
